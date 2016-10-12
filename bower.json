@@ -1,0 +1,22 @@
+{
+  "name": "craft-workflow",
+  "version": "1.0.0",
+  "authors": [
+    "Johannes Lamers"
+  ],
+  "description": "Craft CMS Gulp workflow + install script",
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "~6.0.0",
+    "motion-ui": "~1.1.0",
+    "modernizr": "~2.8.3",
+  },
+  "private": true
+}

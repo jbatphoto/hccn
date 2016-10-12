@@ -1,0 +1,85 @@
+
+# LOCAL CONFIG SETTINGS
+# Exclude local config files so we don't overwrite other local setups.
+# Leave example files that can be renamed to get setup
+# @TODO - consider excluding dev and live database files.
+# ------------------------------------------------------------
+*/craft/config/local/
+/public/path.php
+
+
+
+# IMAGE FOLDERS
+# Commented out for convenience. Probably worth excluding as repo gets larger.
+# ------------------------------------------------------------
+# /public/assets/*
+
+
+
+# Craft Storage (cache) [http://buildwithcraft.com/help/craft-storage-gitignore]
+/storage/*
+!/storage/.gitignore
+!/storage/logo/*
+/db_backups/
+/db_backups/*
+
+
+# Private node modules
+# ----------------------------------------------------------------------
+node_modules
+npm-debug.log
+
+
+
+
+# MISC FILES
+# https://github.com/github/gitignore/tree/master/Global
+# ------------------------------------------------------------
+.cache
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+ehthumbs.db
+.idea
+.project
+.settings
+*.esproj
+*.sublime-workspace
+*.sublime-project
+*.tmproj
+*.tmproject
+Thumbs.db
+/logs/*
+.Spotlight-V100
+.Trashes
+config.codekit
+.codekit-cache
+db_backups
+
+
+#bower_components
+.tmp
+.sass_cache
+.codekit-cache
+
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
